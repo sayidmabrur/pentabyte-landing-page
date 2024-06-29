@@ -35,6 +35,10 @@
 
 }
 
+h1 {
+  /* font-size: 90px; */
+}
+
 .col-6 {
   /* Optional: Adjust padding if necessary */
   padding: 0;
@@ -844,9 +848,31 @@ h6 {
 }
 
 .page-title h1 {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 50px;
+  /* font-weight: 700; */
   margin: 0;
+}
+
+
+.page-title2 h1 {
+  font-size: 75px;
+  /* font-weight: 700; */
+  margin: 0;
+}
+
+
+@media (max-width: 880px) {
+  .page-title2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .page-title2 p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  }
 }
 
 .page-title .breadcrumbs ol {
@@ -951,8 +977,8 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 52px;
+  /* font-weight: 700; */
   line-height: 56px;
 }
 
